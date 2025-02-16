@@ -8,8 +8,6 @@ Este projeto contém diversas funções para a **manipulação de strings**. Par
 
 Em seguida apresentam-se todas as funções implementadas no projeto, em conjunto com uma breve descrição e exemplo.
 
----
-
 ### 1. **`reverse(string)`:**
 🔹 **Descrição:** Inverte uma string.  
 🔹 **Exemplo:** `reverse("hello")` retorna `"olleh"`
