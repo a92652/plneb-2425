@@ -17,7 +17,7 @@ Em seguida apresentam-se todas as funções implementadas no projeto, em conjunt
 🔹 **Exemplo:** `find_a("BAnana")` retorna `3`
 
 ### 3. **`vowels(string)`:**
-🔹 **Descrição:** Conta o número de vogais numa string.
+🔹 **Descrição:** Conta o número de vogais numa string.  
 🔹 **Exemplo:** `vowels("Olarilole)` retorna `5`
 
 ### 4. **`lower(string)`:**
@@ -30,7 +30,7 @@ Em seguida apresentam-se todas as funções implementadas no projeto, em conjunt
 
 ### 6. **`capicua(string)`:**
 🔹 **Descrição:** Verifica se a string dada é uma capicua, reconhecendo tanto uma única palavra ou uma frase.  
-🔹 **Exemplo 1:** `capicua("Ana"))` retorna `True`
+🔹 **Exemplo 1:** `capicua("Ana"))` retorna `True`  
 🔹 **Exemplo 2:** `capicua("Luz Azul")` retorna `True`
 
 ### 7. **`balanceadas(s1, s2)`:**
@@ -43,7 +43,7 @@ Em seguida apresentam-se todas as funções implementadas no projeto, em conjunt
 
 ### 9. **`anagrama(s1, s2)`:**
 🔹 **Descrição:** Verifica se as duas strings são anagramas entre si.  
-🔹 **Exemplo 1:** `anagrama("listen", "silent"),` retorna `True`
+🔹 **Exemplo 1:** `anagrama("listen", "silent"),` retorna `True`  
 🔹 **Exemplo 2:** `anagrama("hello", "world"),` retorna `False`
 
 ### 10. **`classes_anagramas(list)` e `tabela_anagramas(dici)`:**
