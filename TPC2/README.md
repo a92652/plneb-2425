@@ -8,7 +8,7 @@ Este projeto contém diversas funções que utilizam expressões regulares, expl
 
 Em seguida apresentam-se todas as funções implementadas no projeto, em conjunto com uma breve descrição e exemplo.
 
-As alíneas compreendidas no **Exercício 1** tiveram apenas como objetivo demonstrar o funcionamento e sintaxe das diversas funções contempladas pelo *regex*, nomeadamente das funções **match**, **search**, **findall**, **sub** e **split**.
+As alíneas compreendidas no **Exercício 1** tiveram apenas como objetivo demonstrar o funcionamento e sintaxe das diversas funções contempladas pelo *regex*, nomeadamente das funções ***match***, ***search***, ***findall***, ***sub*** e ***split***.
 
 ### 2. **`palavra_magica(string)`:**
 🔹 **Descrição:** Determina se uma string termina com a expressão "por favor", seguida de um sinal de pontuação válido, tendo sido considerados os seguintes: .?!.  
