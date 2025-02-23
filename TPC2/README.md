@@ -33,7 +33,7 @@ As alíneas compreendidas no **Exercício 1** tiveram apenas como objetivo demon
 
 ### 7. **`variavel_valida(string)`:**
 🔹 **Descrição:** Verifica se a string dada apenas contém letras, números ou *underscores* e começa por uma letra.  
-🔹 **Exemplo 1:** `variavel_valida("please_work1")` retorna `True`
+🔹 **Exemplo 1:** `variavel_valida("please_work1")` retorna `True`     
 🔹 **Exemplo 2:** `variavel_valida("1please_work1")` retorna `False`
 
 ### 8. **`inteiros(string)`:**
