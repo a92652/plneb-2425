@@ -12,7 +12,7 @@ As alíneas compreendidas no **Exercício 1** tiveram apenas como objetivo demon
 
 ### 2. **`palavra_magica(string)`:**
 🔹 **Descrição:** Determina se uma string termina com a expressão "por favor", seguida de um sinal de pontuação válido, tendo sido considerados os seguintes: .?!.  
-🔹 **Exemplo 1:** `palavra_magica("Posso ir à casa de banho, por favor?")` retorna `True`
+🔹 **Exemplo 1:** `palavra_magica("Posso ir à casa de banho, por favor?")` retorna `True`     
 🔹 **Exemplo 2:** `palavra_magica("Preciso de um favor.")` retorna `False`
 
 ### 3. **`narcissismo(string)`:**
