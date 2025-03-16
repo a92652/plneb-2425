@@ -4,7 +4,7 @@ Para este projeto, o objetivo consistia em alterar o trabalho desenvolvido na au
 
 ---
 
-## **Tarefa 1:** criar a rota '`/conceitos/<designacao>`' que faz o render template de um conceito, mostrando a designação e a respetiva descrição
+### **Tarefa 1:** criar a rota '`/conceitos/<designacao>`' que faz o render template de um conceito, mostrando a designação e a respetiva descrição
 
 De modo a satisfazer este requisito, foi criada a rota `/conceitos/<designacao>` e a seguinte função `conceito_individual`, que permite percorrer a lista de conceitos presentes no ficheiro json à procura do termo pretendido, devolvendo no final uma página apenas com a designação e a descrição do termo em questão.
 
@@ -23,7 +23,7 @@ def conceito_individual(designacao):
 Adicionalmente, foi criado o ficheiro **conceitos_solo.html**, que completa o ficheiro **layout.html**, de maneira a possibilitar a visualização do conceito pretendido no browser.
 
 
-## **Tarefa 2:** permitir que um clique num termo da lista apresentada em '`/conceitos`' redirecione para a página do respetivo conceito criada na tarefa anterior
+### **Tarefa 2:** permitir que um clique num termo da lista apresentada em '`/conceitos`' redirecione para a página do respetivo conceito criada na tarefa anterior
 
 Para a Tarefa 2, foi adaptado o ficheiro **conceitos.html**, de maneira a que este não retornasse apenas a designação de cada conceito em formato de lista, mas sim a designação num formato clicável, com uma hiperligação para a página do respetivo conceito criada na tarefa anterior. Para isto, foi utilizada a função `url_for()`, que permite ir buscar o url correto, correspondente à rota para cada um dos conceitos.
 Deste modo, em vez de no ciclo for constar apenas `{{designacao}}`, essa linha de código foi substituída por:
