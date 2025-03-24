@@ -1,0 +1,41 @@
+{% extends 'layout.html'%}
+
+
+{% block head %} 
+<title>{{title}}</title> 
+{% endblock %}
+
+
+
+{% block body %}
+
+<div class="container mt-5">
+    <h1 class="text-center">Menu de Pesquisa</h1>
+    
+    <form action="/pesquisa" method="POST" class="mt-4">
+        <div class="input-group">
+            <input type="text" name="termo" class="form-control" placeholder="Insira um termo..." value="{{ pesquisa }}">
+            <button type="submit" class="btn btn-primary">Pesquisar</button>
+        </div>
+    </form>
+
+    {% if pesquisa %}
+        {% if resultados %}
+            <h3 class="mt-4">Resultados para "{{ pesquisa }}":</h3>
+            <ul class="list-group mt-2">
+                {% for term, desc in resultados.items() %}
+                    <li class="list-group-item">
+                        {{ term | safe }}: {{ desc | safe }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="mt-4 text-danger">Nenhum resultado encontrado.</p>
+        {% endif %}
+    {% else %}
+        <p class="mt-4">Os resultados irão aparecer aqui.</p>
+    {% endif %}
+</div>
+
+{% endblock %}
+
