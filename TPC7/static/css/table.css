@@ -1,0 +1,19 @@
+/* Cor de fundo para o header */
+#tabela_conceitos thead th {
+    background-color: #fbd2ff;
+    color: #000000
+}
+
+/* Cor de fundo para as linhas */
+#tabela_conceitos tr:nth-child(odd) {
+    background-color: #fff8da;
+}
+#tabela_conceitos tr:nth-child(even) {
+    background-color: #ffe9d1;
+}
+
+
+/* Cor quando se passa com o rato por cima  */
+#tabela_conceitos tbody tr:hover {
+    background: #baddff;
+}
