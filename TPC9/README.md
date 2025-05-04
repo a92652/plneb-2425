@@ -39,7 +39,9 @@ model.wv.similarity('harry', 'hagrid')
 
 ```
 
-`0.4930841`
+```markdown
+0.4930841
+```
 
 - `most_similar`: identifica palavras semanticamente próximas, tendo sido também utilizado para analogias.
 
@@ -95,7 +97,9 @@ model.wv.doesnt_match(['harry', 'rony', 'hermione', 'draco'])
 
 ```
 
-`'draco'`
+```markdown
+'draco'
+```
 
 
 ## **Top 10 Palavras**
@@ -111,7 +115,9 @@ print(top_10_sem_stopwords[:10])
 
 ```
 
-`['harry', 'disse', 'rony', 'hagrid', 'coisa', 'hermione', 'bem', 'cabeça', 'olhos', 'ter']`
+```markdown
+['harry', 'disse', 'rony', 'hagrid', 'coisa', 'hermione', 'bem', 'cabeça', 'olhos', 'ter']
+```
 
 
 ## **Guardar o Modelo**
