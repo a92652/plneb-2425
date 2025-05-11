@@ -1,4 +1,4 @@
-# TPC8: Web Scrapping - Revista de Medicina Interna
+# TPC10: Web Scrapping - Revista de Medicina Interna
 
 Para este projeto, o objetivo consistia em extrair várias informações sobre os artigos publicados nas várias edições da [Revista da Sociedade Portuguesa de Medicina Interna](https://revista.spmi.pt/index.php/rpmi/issue/archive) e organizá-las num ficheiro json.
 
